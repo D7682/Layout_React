@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-gap: 3px;
+  background-color: purple;
+  grid-template: 1fr 12fr 1fr / 1fr 5fr 1fr;
+}
+
+.header {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+  background-color: darkgreen;
+  display: inline-grid;
+}
+
+.menu {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  background-color: white;
+}
+
+.content {
+  grid-row: 2 / 3;
+  grid-column: 2 / -1;
+  background-color: yellow;
+}
+
+.footer {
+  grid-row: 3 / 4;
+  grid-column: 1 / -1;
+  background-color: grey;
+}
