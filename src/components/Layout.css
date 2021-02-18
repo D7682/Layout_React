@@ -13,16 +13,18 @@
   display: inline-grid;
 }
 
+/*
 .menu {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
   background-color: white;
 }
+*/
 
 .content {
   grid-row: 2 / 3;
-  grid-column: 2 / -1;
-  background-color: yellow;
+  grid-column: 1 / -1;
+  background-color: #e6e6e6;
 }
 
 .footer {

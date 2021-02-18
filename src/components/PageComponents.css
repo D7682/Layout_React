@@ -1,0 +1,12 @@
+.content-container {
+  padding: 2vh;
+  background-color: white;
+}
+
+.card-container {
+  background-color: #e6e6e6;
+  display: flex;
+  margin: 2vh 0;
+  justify-content: center;
+  align-items: center;
+}

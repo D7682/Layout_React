@@ -8,11 +8,11 @@ export default function Layout() {
       <div className="header">
         <Header />
       </div>
-
-      <div className="menu">
-        <Menu />
-      </div>
-
+      {/*
+        <div className="menu">
+          <Menu />
+        </div>
+        */}
       <div className="content">
         <Content />
       </div>
